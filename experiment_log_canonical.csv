@@ -1,0 +1,6 @@
+run_id,date,approach,model,notes,params,train_roc_auc,train_pr_auc,val_roc_auc,val_pr_auc,test_roc_auc,test_pr_auc
+log-logreg_bal-1760692480,2025-10-17,ML,LogisticRegression (balanced),"baseline, class_weight=balanced",,nan,nan,nan,nan,nan,nan
+log-xgb_tuned-1760693531,2025-10-17,ML,XGBoost (tuned),"lr=0.03, depth=5, L1/L2",,nan,nan,nan,nan,nan,nan
+log-seq-1760693586,2025-10-17,DL,Sequential MLP,"256-128, dropout=0.3, Adam(1e-3)",,nan,nan,nan,nan,nan,nan
+log-xgb-1760695224,2025-10-17,ML,XGBoost (tuned),re-logged with explicit columns,,nan,nan,nan,nan,nan,nan
+log-xgb_tuned-1760696085,2025-10-17,ML,XGBoost (tuned),"lr=0.03, depth=5, L1/L2",,nan,nan,nan,nan,nan,nan
